@@ -27,7 +27,7 @@ public class Server {
                                 .getInputStream()));// 使用缓存进行包装，提示读取速度
                         System.out.println("文件长度:" + din.readUTF()); // 显示接收文件长度
 
-                        File file = new File("d:/01.jpg");
+                        File file = new File("01.java");
                         FileOutputStream fos = new FileOutputStream(file);
                         dout = new DataOutputStream(new BufferedOutputStream(
                                 fos));
